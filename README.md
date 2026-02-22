@@ -32,3 +32,20 @@ Clone the repository:
 ```bash
 git clone https://github.com/ash2104/PDF_PROCTECTOR.git
 cd PDF_PROCTECTOR
+Install required libraries:
+
+pip install PyPDF2
+pip install pycryptodome
+🔐 Usage
+Protect a PDF
+python pdf_protector.py input.pdf output.pdf password
+
+Example:
+
+python pdf_protector.py test.pdf protected.pdf 1234
+
+---
+
+
+@ash2104
+
